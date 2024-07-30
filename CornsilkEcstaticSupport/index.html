@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alwin Nackeeran</title>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- Favicon -->
+    <link class="favicon" rel="icon" type="image/png" sizes="32x32" href="your-favicon-link-here">
+
+    <!-- Google material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Type JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("pnG--GkoykSjnrWED");
+        })();
+    </script>
+</head>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video" preload="auto">
+            <source src="https://codeportfoliowebsite.s3.us-east-2.amazonaws.com/0713.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <body>
+        <header class="navbar">
+             <div class="progress-container">
+                 <div class="progress-bar" id="myBar"></div>
+             </div>
+            <div class="max-width">
+                <div class="logo"><a href="#">Alwin <span>Nackeeran</span></a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </header>
+
+
+    <!-- Home section -->
+        <section class="home" id ="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hello my name is </div>
+                    <div class="text-2">Alwin </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <h2 class="title" data-aos="fade-down">About Me</h2>
+        <div class="max-width">
+            <div class="about-content">
+                <div class="column left" data-aos="fade-right">
+                    <img src="https://codeportfoliowebsite.s3.us-east-2.amazonaws.com/IMG_8788+(1).JPG" alt="Profile Picture">
+                    <div class="text">
+                        I'm Alwin Nackeeran
+                    </div>
+                    <p class="paragraph">
+                        I am a undergraduate student at the University of Maryland, College Park. I am currently majoring in Computer Science with a focus on Machine learning and a minor in general business. Take a look at my projects and work experience. Feel free to contact me for any questions or inquiries!
+                    </p>
+            
+                    <a href="https://www.linkedin.com/in/alwin-nackeeran-115717263/">LinkedIn</a>
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Projects section -->
+        <section class="project" id="projects">
+            <h2 class="title" data-aos="fade-down">Projects</h2>
+            <div class="max-width">
+                <div class="serv-content">
+                    <div class="card glow" data-aos="flip-left">
+                        <div class="text">Real Estate/Economic Indicators model</div>
+                        <img src="Screen Shot 2024-07-12 at 10.12.27 PM.png" alt="Project 1 Image">
+                        <div class="description">Developed a machine learning model utilizing linear ridge regression and random forest to analyze the correlation of economic indicators on the real estate market. Managed all project phases including data collection, processing, exploratory analysis, data visualization, hypothesis testing, and model training. Achieved a <b>99.8% </b> accuracy in predicting real estate values by identifying positively correlated economic indicators.
+.</div>
+                        <div class="links">
+                            <a href="https://anacke8996.github.io/">View Project</a>
+                        </div>
+                    </div>
+                    <div class="card glow" data-aos="flip-left">
+                         <div class="text">Photography Portfolio </div>
+                        <img src="Screen Shot 2024-07-12 at 10.21.51 PM.png" alt="Project 2 Image">
+                        <div class="description">Website to display photos taken by Alwin Nackeeran. 
+                        Languages include html,css,and javascript.Features use of tailwind css as well as fancybox js.
+ </div>
+                        <div class="links">
+                            <a href="https://alwinsphotos.netlify.app/">View Project</a>
+                        </div>
+                    </div>
+                    <div class="card glow" data-aos="flip-left">
+                        <div class="text">Timelines(App)</div>
+                        <img src="Screen Shot 2024-06-20 at 1.54.50 PM copy.png" alt="Project 3 Image">
+                        <div class="description"> WORK IN PROGRESS</div>
+                        <div class="links">
+                            <a href="link-to-project3">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Experience section -->
+        <section class="project1" id="experience">
+            <h2 class="title" data-aos="fade-down">Work Experience</h2>
+            <div class="max-width">
+                <div class="serv-content">
+                    <div class="card glow" data-aos="flip-left">
+                        <div class="box">
+                            <div class="text">
+                                <img src="Screen Shot 2024-07-12 at 11.07.04 PM.png" alt="PeakMind Logo" class="company-logo">
+                                PeakMind
+                            </div>
+                            <p>Spearheaded a team towards the development of a comprehensive <b>Data Science pipeline</b>. Pipeline was designed to <b>filter, clean, model, visualize, and interpret</b> raw data from a study involving 55 police officers. Analysis examined the impact of cognitive load, pupillometry, and heart rate on stress level. Results were subsequently presented to industry professionals. Utilized a range of tools including Anaconda Navigator, Jupyter Notebooks, Python/Pandas, Git/Github, and myenv to ensure precise and reliable results. Was <b>promoted from Intern to Part-Time Data Scientist</b></p>
+                        </div>
+                    </div>
+                    <div class="card glow" data-aos="flip-left">
+                        <div class="box">
+                            <div class="text">
+                                <img src="Screen Shot 2024-07-13 at 1.30.28 PM.png" alt="AxleInformatics Logo" class="company-logo">
+                                AxleInformatics
+                            </div>
+                            <p>Developed robust and scalable <b>RESTful APIs</b> to manage data processing tasks, ensuring seamless communication between different components of the data processing system. Implemented <b>Middleware</b> for logging, authentication, and error handling. Utilized <b> Python, Flask, Node.js, and Express.js to build and maintain applications</b>.</p>
+                        </div>
+                    </div>
+                    <div class="card glow" data-aos="flip-left">
+                        <div class="box">
+                            <div class="text">
+                                <img src="Screen Shot 2024-07-13 at 1.30.56 PM.png" alt="Adobe Logo" class="company-logo">
+                                Adobe
+                            </div>
+                            <p>Formulated and executed a comprehensive marketing plan, strategizing tactics to shape the program and implement initiatives that successfully captured at least <b>250</b> student leads, <b>20</b> clubs, and <b>5</b> professors interested in learning more about Adobe products. Piloted drones and edited footage to create engaging visual content for promotional and educational purposes. Beta tested new and upcoming software, providing valuable feedback for improvements and ensuring readiness for broader release.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                    <h2 class="col-span-2 text-4xl pt-10 pb-8"><b>Contact</b></h2>
+                    <section class="col-span-1">
+                        <div class="max-w-screen-md">
+                            <form class="space-y-8" action="mailto:info@example.com">
+                                <div>
+                                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="example@gmail.com" required />
+                                </div>
+                                <div>
+                                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let me know how I can help you" required />
+                                </div>
+                                <div class="sm:col-span-2">
+                                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-neutral-900 dark:border-neutral-800 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..." required></textarea>
+                                </div>
+                                <button type="submit" class="py-3 px-5 text-sm font-medium text-center bg-black dark:bg-white text-white dark:text-black rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+                            </form>
+                        </div>
+                    </section>
+                    <div class="col-span-1 flex relative">
+                        <div class="bg-white dark:bg-neutral-900 p-5 pb-27 m-6 md:m-12 md:ml-16 shadow-lg border border-gray-100 dark:border-neutral-800 hover:rotate-0 transition duration-500 rotate-6 relative">
+                            <img src="IMG_3699.JPG" alt="" class="flex flex-col aspect-square w-full object-cover h-auto max-h-full" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing: 'ease-in', delay: 100, duration: 300, offset: 100}); window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
